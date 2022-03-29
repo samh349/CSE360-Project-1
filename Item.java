@@ -1,6 +1,8 @@
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class Item {
+
+public class Item implements Serializable{
 	
 	// Data
 	private String name;
@@ -46,8 +48,8 @@ public class Item {
 	public String getDesc() {
 		return this.desc;
 	}
-	
-	public double getPrice() {
+	 
+	public Double getPrice() {
 		return this.price;
 	}
 
