@@ -39,8 +39,16 @@ public class Item {
 	}
 	
 	// Getters
-	public string getName() {
+	public String getName() {
 		return this.name;
+	}
+	
+	public String getDesc() {
+		return this.desc;
+	}
+	
+	public double getPrice() {
+		return this.price;
 	}
 
 }
